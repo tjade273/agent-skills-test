@@ -1,0 +1,14 @@
+[project]
+name = "termcolor3"
+version = "3.4.1"
+description = "Re-exports the color function from termcolor"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/termcolor"]
